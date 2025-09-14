@@ -1,0 +1,25 @@
+{
+    "name": "@vishnu_vardhan_r/resume",
+    "version": "2.0.2",
+    "description": "Resume of Vishnu Vardhan R displayed in terminal",
+    "main": "index.js",
+    "bin": {
+        "@vishnu_vardhan_r/resume": "./index.js"
+    },
+    "keywords": [
+        "resume",
+        "vishnu",
+        "vishnu-vardhan",
+        "cli"
+    ],
+    "author": "Vishnu Vardhan R",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "boxen": "^5.1.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "node index.js"
+    }
+}
